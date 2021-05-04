@@ -1,0 +1,69 @@
+<!-- 상단 헤더 불러오기 -->
+<?php include('../sub_header.php');?>
+
+
+
+<div class="snb-wrap">
+	<div>
+		<ul>
+			<li ><a href="./notice_list.html"><span>공지사항</span></a></li>
+			<li><a href="./free_list.html"><span>자유게시판</span></a></li>
+			<li class="on"><a href="./gallery_list.html"><span>갤러리</span></a></li>
+		</ul>		
+	</div>
+</div>
+
+
+
+<div class="notice-wrap">
+	<div class="notice-box">
+		
+
+		<div class="bbs-write">
+			<div>
+				<ul>
+					<li>
+						<label for="">제목</label>
+						<input type="text" placeholder="제목을 입력해 주세요.">
+					</li>
+
+					<li>
+						<label for="">내용</label>
+						<textarea name="" id="" placeholder="내용을 입력하는 부분입니다."></textarea>
+					</li>
+
+					<li>
+						<label for="">첨부파일 #01</label>
+						<input type="file">
+					</li>
+					<li>
+						<label for="">첨부파일 #02</label>
+						<input type="file">
+					</li>
+
+					<li class="checkbox-wrap">
+						<label for="">공지선택</label>
+						<input type="checkbox" id="chk-notice"><label for="chk-notice">선택시 공지사항</label>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+
+		<div class="table-btn">
+			<div>
+				<a href="./gallery_view.html">이전</a>
+				<a href="./gallery_list.html">완료</a>
+			</div>
+		</div>
+
+	</div>
+
+</div>
+
+
+
+
+
+<!-- 하단 정보 불러오기 -->
+<?php include('../sub_footer.php');?>
